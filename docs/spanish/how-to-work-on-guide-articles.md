@@ -10,24 +10,24 @@ Puedes:
 ## Pasos para crear y editar artículos de la Guía
 
 1. 🍴 [Fork este repositorio](https://github.com/freeCodeCamp/freeCodeCamp#fork-destination-box)
-2. 👀️ Sgiue las normas de controbución expuestas a continuación.
+2. 👀️ Sigue las normas de contribución expuestas a continuación.
 3. 🔧 Propón cambios asombrosos!
 4. 📖 Lee la [guía de buenas prácticas de estilo](/docs/style-guide-for-guide-articles).
 5. 👉 [Haz una Pull Request](https://github.com/freeCodeCamp/freeCodeCamp/compare)
 6. 🎉 Consigue que aprueben tu Pull request - Éxito!
 
-O siemplement [crea un tema](https://github.com/freeCodeCamp/freeCodeCamp/issues) - toda pequeña ayuda cuenta! 😊
+O simplemente [crea un tema](https://github.com/freeCodeCamp/freeCodeCamp/issues) - toda pequeña ayuda cuenta! 😊
 
 ### [Sigue estas recomendaciones de nuestra guía de estilo para crear un artículo atractivo](/docs/style-guide-for-guide-articles.md)
 
-### Crear Pull Request para propoenr cambios
+### Crear Pull Request para proponer cambios
 
 Hay dos formas de proponer cambios en el repositorio tras editar o añadir un articulo:
 
 - [Utilizando la interfaz de GitHub en tu navegador](#using-the-github-web-interface-on-your-browser).
 - [Trabajando en tu ordenador personal](#working-on-your-local-machine) (_recomendado_ para previsualiar cambios).
 
-#### Utilizar la interaz web de GitHub
+#### Utilizar la interfaz web de GitHub
 
 Mira este vídeo de demostración o sigue los siguientes pasos:
 
@@ -109,7 +109,7 @@ Los revisores harán todos los esfuerzos posibles para resolver estos conflictos
 
 #### Solicitar cambios
 
-Si la Pull Request no es perfect el revisor podría:
+Si la Pull Request no es perfecta el revisor podría:
 
 - solicitar cambios al contribuidor y añadir la etiqueta *cambios solicitados*
 - solucionar errores menores y hacer un envío encima de la PR
@@ -120,7 +120,7 @@ Todas las PRs deben superar los test de Travis CI antes de poder ser integradas.
 
 Si una PR rompe la ejecución (un test de Travis CI falla y muestra una "X" roja) hay tres cauas probables y tendrás que resolver el problemas antes de que podamos integrar la PR:
 
-1. Tu PR crea un nueva artículo pero la falta un archivo `index.md` en algún lugar.
+1. Tu PR crea un nuevo artículo pero la falta un archivo `index.md` en algún lugar.
     - Cada directorio en `src/pages` necesita un archivo `index.md` en él (y debe llamarse `index.md`).
     - Dos escenarios muy probables son
       - llamaste al archivo de forma distinta a `index.md`, o
@@ -171,7 +171,7 @@ Utilizamos la opción <kcd>Aplastar e integrar</kcd> al integrar una PR para men
 
 ### Filtrar PRs
 
-> PR, Obierta, Más Antiguas Primero, Travis CI Build correcta, nadie asignado, sin comentarios
+> PR, Abierta, Más Antiguas Primero, Travis CI Build correcta, nadie asignado, sin comentarios
 
 [`is:pr is:open sort:updated-asc status:success no:assignee comments:0`](https://github.com/freeCodeCamp/freeCodeCamp/pulls?utf8=%E2%9C%93&q=is%3Apr%20is%3Aopen%20sort%3Aupdated-asc%20status%3Asuccess%20no%3Aassignee%20comments%3A0)
 
@@ -187,7 +187,7 @@ Utilizamos la opción <kcd>Aplastar e integrar</kcd> al integrar una PR para men
 
 ```markdown
 Gracias por contribuir a la página! 👍
-Estamos encantados de aceptar estos cambios y esperamos tus futuras aportaciones. 🎉
+Estamos encantados de aceptar estos cambios y esperamos tus futuros aportes. 🎉
 ```
 
 #### Gracias y enhorabuena
@@ -198,7 +198,7 @@ Estamos encantados de aceptar estos cambios y esperamos tus futuras aportaciones
 Hola @username. Enhorabuena por tu primera pull request (PR)! 🎉
 
 Gracias por contribuir a la página! 👍
-Estamos encantados de aceptar estos cambios y esperamos tus futuras aportaciones. 📝
+Estamos encantados de aceptar estos cambios y esperamos tus futuros aportes. 📝
 ```
 
 #### Error de intregración
@@ -214,7 +214,7 @@ Una vez resuelvas el problema, podré revisar tu PR e integrarla. 😊
 
 > Puedes conseguir más información en la [Guía de estilo para escibir Artículos](https://github.com/freeCodeCamp/freeCodeCamp#article-title) sobre cómo formatear tus artículos para que superen los test de Travis CI. ✅
 >
-> Además, es una buena ráctica en GitHub escribir una decripción breve de tus cambios al crear una PR. 📝
+> Además, es una buena práctica en GitHub escribir una decripción breve de tus cambios al crear una PR. 📝
 ```
 
 #### Sincronización de Fork
@@ -252,7 +252,7 @@ Una vez sincronices tu fork y superes los test podré integrar tu PR. 😊
 
 > Puedes conseguir más información en e artículo [Sincronizando un Fork](https://help.github.com/articles/syncing-a-fork/) sobre cómo mantener al día tu fork con el repositorio principal. 🔄
 >
-> Además, es una buena ráctica en GitHub escribir una decripción breve de tus cambios al crear una PR. 📝
+> Además, es una buena práctica en GitHub escribir una decripción breve de tus cambios al crear una PR. 📝
 ``````
 
 #### Conflictos de integración
@@ -270,7 +270,7 @@ Una vez resuelvas estos conflictos, podré revisar tu PR e integrarla. 😊
 
 > Si no estás familiarizado con los conflictos de integración, por favor revisa la guía de GitHub ["Resolviendo conflictos de integración"](https://help.github.com/articles/resolving-a-merge-conflict-on-github/) para más información. 🔍️
 >
-> Además, es una buena ráctica en GitHub escribir una decripción breve de tus cambios al crear una PR. 📝
+> Además, es una buena práctica en GitHub escribir una decripción breve de tus cambios al crear una PR. 📝
 ```
 ¹ Si un contribuidor primerizo tiene conflictos de integración, los encargados de mantenimiento lo resolverán en su lugar.
 
@@ -299,7 +299,7 @@ Gracias de nuevo! 😊
 ```markdown
 Hola @username
 
-No has añadido ningún contenido real por invalidaré esta PR y la etiquetaré como `inválida`. 😓️
+No has añadido ningún contenido real por eso invalidaré esta PR y la etiquetaré como `inválida`. 😓️
 
 En cualquier caso, no dudes en abrir otras PR! 👍
 ```
